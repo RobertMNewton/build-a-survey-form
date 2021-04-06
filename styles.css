@@ -1,0 +1,23 @@
+body {
+    background-color: #d961fd;
+    color: white;
+    font-family: "pacifico", cursive;
+}
+form {
+    background-color: #c66afc;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+
+    border-radius: 4px;
+}
+#form-elements {
+    margin: auto;
+    width: 80%;
+    max-width: 100%
+}
+header {
+    text-align: center;
+}

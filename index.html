@@ -7,12 +7,17 @@
         <meta name="viewport" content="width=device-witdth, initial-scale=1.0">
 
         <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1 id="title">Gibbon's Unusually Random Quiz</h1>
-        <p id="description">Basically, Gibbon designed this.</p>
+        <header>
+            <h1 id="title">Gibbon's Unusually Random Quiz</h1>
+            <p id="description">Basically, Gibbon designed this.</p>
+        </header>
 
         <form id="survey-form">
+            <div id="form-elements">
             <label for="name" ie="name-label">What's your name?</label><br>
             <input type="text" id="name" name="name" placeholder="Name" required><br>
 
@@ -54,10 +59,11 @@
             <label for="yellow">Yellow</label><br>
 
             <label for="text-field">What's the meaning of life?</label><br>
-            <textarea id="text-field" name="meaning-of-life"  rows="5" cols="50"></textarea><br>
+            <textarea id="text-field" name="meaning-of-life"  rows="5" cols="40"></textarea><br>
 
             <label for="submit" ></label>
             <input type="submit" id="submit" name="submit" value="Submit">
+            </div>
         </form>
     </body>
 </html>
