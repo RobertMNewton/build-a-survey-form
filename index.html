@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>THIS IS THE PAGE NAME</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-witdth, initial-scale=1.0">
+
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="title">Gibbon's Unusually Random Quiz</h1>
+        <p id="description">Basically, Gibbon designed this.</p>
+
+        <form id="survey-form">
+            <label for="name" ie="name-label">What's your name?</label><br>
+            <input type="text" id="name" name="name" placeholder="Name" required><br>
+
+            <label for="email" id="email-label">What's your email?</label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+            <label for="number" id="number-label">How old are you? <i>(optional)</i></label><br>
+            <input type="number" id="number" name="number" placeholder="0" min="0" max="123"><br>
+
+            <label for="dropdown">What's your favourite mythical animal?</label><br>
+            <select id="dropdown" name="dropdown">
+                <option value="catanary">Catanary</option>
+                <option value="unicorn">Unicorn</option>
+                <option value="rainbow-panda">Rainbow Panda</option>
+            </select><br>
+
+            <label>What's your favourite animal?</label><br>
+            <input type="radio" id="cat" name="favourite-animal" value="cat">
+            <label for="cat">Cat</label><br>
+            <input type="radio" id="dog" name="favourite-animal" value="dog">
+            <label for="dog">Dog</label><br>
+            <input type="radio" id="elephant" name="favourite-animal" value="elephant">
+            <label for="eliphant">Elephant</label><br>
+
+            <label>What's your favourite colour?</label><br>
+            <input type="checkbox" id="blue" name="favourite-colour" value="blue">
+            <label for="blue">Blue</label><br>
+            <input type="checkbox" id="pint" name="favourite-colour" value="pink">
+            <label for="pink">Pink</label><br>
+            <input type="checkbox" id="Purple" name="favourite-colour" value="Purple">
+            <label for="Purple">Purple</label><br>
+            <input type="checkbox" id="red" name="favourite-colour" value="red">
+            <label for="red">Red</label><br>
+            <input type="checkbox" id="orange" name="favourite-colour" value="orange">
+            <label for="orange">Orange</label><br>
+            <input type="checkbox" id="teal" name="favourite-colour" value="teal">
+            <label for="teal">Teal</label><br>
+            <input type="checkbox" id="yellow" name="favourite-colour" value="yellow">
+            <label for="yellow">Yellow</label><br>
+
+            <label for="text-field">What's the meaning of life?</label><br>
+            <textarea id="text-field" name="meaning-of-life"  rows="5" cols="50"></textarea><br>
+
+            <label for="submit" ></label>
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+    </body>
+</html>
